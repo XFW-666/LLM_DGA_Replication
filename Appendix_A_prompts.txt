@@ -1,0 +1,49 @@
+Appendix A. Prompt templates (verbatim, as sent)
+
+The four requests below are reproduced byte for byte from the campaign. The only per-model variation is the token budget (Table 2) and, for one model family, an instruction to emit the JSON object only.
+
+==============================================================================
+S1
+==============================================================================
+[system]
+You are an expert in dissolved gas analysis (DGA) for power transformer fault diagnosis. You have deep knowledge of IEC 60599, IEEE C57.104, Duval Triangle, and Rogers ratio methods. Your task is to identify physically meaningful gas ratio features from five primary DGA gases: H2, CH4, C2H6, C2H4, and C2H2.
+
+[user]
+Given the five primary DGA gases (H2, CH4, C2H6, C2H4, C2H2), propose all physically meaningful gas ratio features that can distinguish between six fault types: Normal, Low-Temperature Overheating (LTO), High-Temperature Overheating (HTO), Partial Discharge (PD), Low-Energy Discharge (LED), and High-Energy Discharge (HED). For each ratio, explain: (1) the physical/chemical basis, (2) which fault types it discriminates, (3) expected behavior under each fault condition.
+
+Output a single JSON object with the key "ratios": a list of at most 18 objects, each having keys "expression" (a ratio built ONLY from H2, CH4, C2H6, C2H4, C2H2 using + and / with parentheses, e.g. "H2/(CH4+C2H6)"; sums of gases are allowed in numerator and denominator), "category" (one of: H2-based, CH4-based, C2H6-based, C2H4-based, C2H2-based, composite), "basis" (physical/chemical basis, at most 15 words), "discriminates" (list of fault-type names it separates, abbreviations only). Keep every "basis" under 15 words; write the JSON compactly (no line-by-line formatting). Respond with the JSON object only, no text before or after.
+
+==============================================================================
+S2
+==============================================================================
+[system]
+You are a data scientist specializing in feature engineering for fault diagnosis. Analyze the following gas ratio features for informational redundancy.
+
+[user]
+Given these 14 gas ratio features derived from DGA data, analyze pairwise correlations and identify: (1) which ratios are highly correlated (r > 0.85) and can be merged/removed, (2) which ratios provide unique diagnostic information, (3) the recommended minimal feature subset that preserves 95% of diagnostic information.
+Feature list: H2/(CH4+C2H6), H2/(C2H4+C2H2), H2/ALL, CH4/(H2+C2H6), CH4/(C2H4+C2H2), CH4/ALL, C2H6/(H2+CH4), C2H6/(C2H4+C2H2), C2H6/ALL, C2H4/(H2+CH4), C2H4/(C2H6+C2H2), C2H4/ALL, (CH4+C2H6)/TH, (C2H6+C2H4)/TH.
+
+Output a single JSON object with keys: "high_correlation_pairs" (list of objects with keys "a", "b", "estimated_r"), "recommended_retain" (list of feature names), "recommended_remove" (list of feature names), "reasoning" (at most 40 words). Use the exact feature names from the list. Respond with the JSON object only.
+
+==============================================================================
+S3
+==============================================================================
+[system]
+You are an expert in transformer diagnostics. Rank the following DGA features by their expected diagnostic value for distinguishing 6 fault types.
+
+[user]
+Rank these 19 DGA features (5 raw gases + 14 ratios) by diagnostic importance for classifying Normal, LTO, HTO, PD, LED, HED faults. For each feature, provide: (1) rank, (2) reasoning based on DGA physics, (3) which fault pairs it best discriminates. Consider that C2H2 is the definitive arcing indicator, C2H4 indicates high-temperature thermal stress, and H2 indicates discharge activity.
+Feature list: H2, CH4, C2H6, C2H4, C2H2, H2/(CH4+C2H6), H2/(C2H4+C2H2), H2/ALL, CH4/(H2+C2H6), CH4/(C2H4+C2H2), CH4/ALL, C2H6/(H2+CH4), C2H6/(C2H4+C2H2), C2H6/ALL, C2H4/(H2+CH4), C2H4/(C2H6+C2H2), C2H4/ALL, (CH4+C2H6)/TH, (C2H6+C2H4)/TH.
+
+Output a single JSON object with the key "ranking": a list of 19 objects, each with keys "rank" (1 = most important, integer 1-19), "feature" (exact name from the list), "rationale" (at most 20 words). Include every feature exactly once. Respond with the JSON object only.
+
+==============================================================================
+S4
+==============================================================================
+[system]
+You are a machine learning engineer tuning classifiers for engineering diagnostics.
+
+[user]
+For a Random Forest classifier on a 6-class DGA dataset with 550 samples and 19 features, recommend optimal hyperparameter ranges for: n_estimators, max_depth, min_samples_leaf. Consider the moderate dataset size and class imbalance (HED: 45 samples, Normal: 140 samples).
+
+Output a single JSON object with keys: "n_estimators" (object with "min", "max", "recommended"), "max_depth" (object with "min", "max", "recommended"), "min_samples_leaf" (object with "min", "max", "recommended"), "class_weight" (string), "rationale" (at most 30 words). Respond with the JSON object only.

@@ -1,0 +1,59 @@
+{
+ "cnn": {
+  "accuracy_mean": 80.83271097834205,
+  "accuracy_std": 4.228615295751508,
+  "macro_f1_mean": 76.74945766969256,
+  "macro_f1_std": 5.188689353050944,
+  "balanced_accuracy_mean": 77.19013679675444,
+  "per_class_recall_mean": [
+   88.46153846153847,
+   69.48051948051948,
+   95.35947712418302,
+   88.62499999999999,
+   40.833333333333336,
+   80.38095238095238
+  ],
+  "repeats": 2,
+  "epochs": 100
+ },
+ "bilstm": {
+  "accuracy_mean": 69.55563853622105,
+  "accuracy_std": 4.480093892683782,
+  "macro_f1_mean": 63.99919972780084,
+  "macro_f1_std": 4.178311634636785,
+  "balanced_accuracy_mean": 64.95105316796494,
+  "per_class_recall_mean": [
+   86.92307692307693,
+   50.56277056277057,
+   84.31372549019609,
+   74.12499999999999,
+   24.305555555555554,
+   69.47619047619048
+  ],
+  "repeats": 2,
+  "epochs": 100
+ },
+ "transformer": {
+  "accuracy_mean": 78.90870052277819,
+  "accuracy_std": 3.496903665921691,
+  "macro_f1_mean": 74.5681903721631,
+  "macro_f1_std": 4.818383190197117,
+  "balanced_accuracy_mean": 74.79968003129767,
+  "per_class_recall_mean": [
+   90.76923076923077,
+   63.96103896103896,
+   94.80392156862746,
+   85.625,
+   35.972222222222214,
+   77.66666666666666
+  ],
+  "repeats": 2,
+  "epochs": 100
+ },
+ "architecture": {
+  "cnn": "Conv1d(1->32,k=3)+BN+ReLU, Conv1d(32->64,k=3)+BN+ReLU, adaptive-avg-pool(4), FC(256->64)+ReLU+dropout(0.3), FC(64->6); AdamW lr=1e-3 wd=1e-3, 120 epochs, batch 64",
+  "bilstm": "BiLSTM(input 1, hidden 32), mean pooling over steps, FC(64->64)+ReLU+dropout(0.3), FC(64->6); same optimiser schedule",
+  "transformer": "per-token linear projection of 3 features -> d_model 32, 2 encoder layers (4 heads, FFN 64, dropout 0.2), mean pooling, FC(32->6); same schedule",
+  "protocol": "identical repeated stratified 5-fold splits (3 repeats), fold-wise standardisation, no feature selection beyond the 19 canonical columns"
+ }
+}

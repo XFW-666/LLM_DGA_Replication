@@ -1,0 +1,54 @@
+{
+ "archives": [
+  {
+   "file": "变压器故障数据，6特征，带代码带论文数据来源.zip",
+   "size": 26671421,
+   "sha256": "076bce786f01caf4111d4f9d67aa884c70e0cf1393cc386dfa5f3365a5acebe7",
+   "note": "expanded collection: 6-feature dataset, MATLAB reduction code and two dissertations",
+   "data_members": [
+    {
+     "name": "变压器溶解气体数据集.xlsx",
+     "size": 27994,
+     "sha256": "32e5097c5c47238a39a1331209ca3d06b08e8131c34cdeb6ece0932868f8ded1"
+    }
+   ],
+   "theses": [
+    {
+     "name": "基于改进ISOMAP和Wk...电力变压器故障诊断方法研究_梅婷.pdf",
+     "size": 7327270,
+     "sha256": "a9d6feef3781c24094989af063840c40f8e5b70b5d8ca4dc5dd377408f2f53ee"
+    },
+    {
+     "name": "基于相关向量机的油浸式电力变压器故障诊断方法研究_尹金良(1)华电博士论文.pdf",
+     "size": 19358457,
+     "sha256": "422f2ee116262c5b22a1d2a20fe8dc2548e1e96d0c51d357002e5ee1d3b1e9e2"
+    }
+   ]
+  },
+  {
+   "file": "DGA原始数据集+扩维数据集.zip",
+   "size": 19488879,
+   "sha256": "2c9c5765822fa1f1121f94e3762315fb531b905f70fac4e2848325d830cc1c82",
+   "note": "source collection: raw 570-record file and the 550-record expanded matrix, plus the doctoral dissertation",
+   "data_members": [
+    {
+     "name": "扩维度DGA电力变压器数据.xlsx",
+     "size": 156050,
+     "sha256": "04f9b92cac2327369061f5833f83b4ec08d505afdb25868781a0fc89a1c5887d"
+    },
+    {
+     "name": "原始.xlsx",
+     "size": 31038,
+     "sha256": "711913b9e581bb589760402c31a657666b4ac1c0cb98cd023e67e01d040f0524"
+    }
+   ],
+   "theses": [
+    {
+     "name": "基于相关向量机的油浸式电力变压器故障诊断方法研究_尹金良(1).pdf",
+     "size": 19358457,
+     "sha256": "422f2ee116262c5b22a1d2a20fe8dc2548e1e96d0c51d357002e5ee1d3b1e9e2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,785 @@
+[
+ {
+  "n": 1,
+  "title": "Review of condition assessment of power transformers in service",
+  "doi": "10.1109/MEI.2002.1161455",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Review of condition assessment of power transformers in service",
+   "year": 2002,
+   "venue": "IEEE Electrical Insulation Magazine",
+   "vol": "18",
+   "issue": "6",
+   "page": "12-25"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 2,
+  "title": "A review on machinery diagnostics and prognostics implementing condition-based maintenance",
+  "doi": "10.1016/j.ymssp.2005.09.012",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A review on machinery diagnostics and prognostics implementing condition-based maintenance",
+   "year": 2006,
+   "venue": "Mechanical Systems and Signal Processing",
+   "vol": "20",
+   "issue": "7",
+   "page": "1483-1510"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 3,
+  "title": "Dissolved gas analysis: It can save your transformer",
+  "doi": "10.1109/57.44605",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Dissolved gas analysis: It can save your transformer",
+   "year": 1989,
+   "venue": "IEEE Electrical Insulation Magazine",
+   "vol": "5",
+   "issue": "6",
+   "page": "22-27"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 4,
+  "title": "IEC 60599:2015. Mineral oil-impregnated electrical equipment in service - Guide ",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Mineral oil-impregnated electrical equipment in service. Guide to the interpretation of dissolved and free gases analysis",
+    "year": null,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.3403/01663710"
+   }
+  ],
+  "title_overlap": 0.73
+ },
+ {
+  "n": 5,
+  "title": "IEEE C57.104-2019. IEEE Guide for the Interpretation of Gases Generated in Miner",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers",
+    "year": null,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.1109/ieeestd.1992.106973"
+   }
+  ],
+  "title_overlap": 0.69
+ },
+ {
+  "n": 6,
+  "title": "Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases",
+  "doi": "10.1109/57.917529",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases",
+   "year": 2001,
+   "venue": "IEEE Electrical Insulation Magazine",
+   "vol": "17",
+   "issue": "2",
+   "page": "31-41"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 7,
+  "title": "A review of faults detectable by gas-in-oil analysis in transformers",
+  "doi": "10.1109/MEI.2002.1014963",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A review of faults detectable by gas-in-oil analysis in transformers",
+   "year": 2002,
+   "venue": "IEEE Electrical Insulation Magazine",
+   "vol": "18",
+   "issue": "3",
+   "page": "8-17"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 8,
+  "title": "A new fuzzy logic approach for consistent interpretation of dissolved gas-in-oil analysis",
+  "doi": "10.1109/TDEI.2013.6678888",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A new fuzzy logic approach for consistent interpretation of dissolved gas-in-oil analysis",
+   "year": 2013,
+   "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+   "vol": "20",
+   "issue": "6",
+   "page": "2343-2349"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 9,
+  "title": "Assessment of computational intelligence and conventional dissolved gas analysis methods for transformer fault diagnosis",
+  "doi": "10.1109/TDEI.2018.007191",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Assessment of computational intelligence and conventional dissolved gas analysis methods for transformer fault diagnosis",
+   "year": 2018,
+   "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+   "vol": "25",
+   "issue": "5",
+   "page": "1798-1806"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 10,
+  "title": "Application of gene expression programming (GEP) in power transformers fault diagnosis using DGA",
+  "doi": "10.1109/TIA.2016.2598677",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Application of Gene Expression Programming (GEP) in Power Transformers Fault Diagnosis Using DGA",
+   "year": 2016,
+   "venue": "IEEE Transactions on Industry Applications",
+   "vol": "52",
+   "issue": "6",
+   "page": "4556-4565"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 11,
+  "title": "Deep residual learning for image recognition",
+  "doi": "10.1109/CVPR.2016.90",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Deep Residual Learning for Image Recognition",
+   "year": 2016,
+   "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+   "vol": null,
+   "issue": null,
+   "page": "770-778"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 12,
+  "title": "Long short-term memory",
+  "doi": "10.1162/neco.1997.9.8.1735",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Long Short-Term Memory",
+   "year": 1997,
+   "venue": "Neural Computation",
+   "vol": "9",
+   "issue": "8",
+   "page": "1735-1780"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 13,
+  "title": "Attention is all you need",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Is Attention All You Need?",
+    "year": 2025,
+    "venue": "From Human Attention to Computational Attention",
+    "vol": null,
+    "issue": null,
+    "page": "297-314",
+    "doi": "10.1007/978-3-031-84300-6_13"
+   }
+  ],
+  "title_overlap": 1.0
+ },
+ {
+  "n": 14,
+  "title": "Deep learning",
+  "doi": "10.1038/nature14539",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Deep learning",
+   "year": 2015,
+   "venue": "Nature",
+   "vol": "521",
+   "issue": "7553",
+   "page": "436-444"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 15,
+  "title": "Support-vector networks",
+  "doi": "10.1007/BF00994018",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Support-vector networks",
+   "year": 1995,
+   "venue": "Machine Learning",
+   "vol": "20",
+   "issue": "3",
+   "page": "273-297"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 16,
+  "title": "Machine learning: Trends, perspectives, and prospects",
+  "doi": "10.1126/science.aaa8415",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Machine learning: Trends, perspectives, and prospects",
+   "year": 2015,
+   "venue": "Science",
+   "vol": "349",
+   "issue": "6245",
+   "page": "255-260"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 17,
+  "title": "Language models are few-shot learners",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Language Models are Few-Shot Learners",
+    "year": 2026,
+    "venue": "Neural Horizons The Uncharted Future of Deep Learning",
+    "vol": null,
+    "issue": null,
+    "page": "224-230",
+    "doi": "10.65525/svup.9788199778009.2026.224-230"
+   }
+  ],
+  "title_overlap": 1.0
+ },
+ {
+  "n": 18,
+  "title": "Chain-of-thought prompting elicits reasoning in large language models",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Active Prompting with Chain-of-Thought: Revolutionising Reasoning in Large Language Models",
+    "year": 2025,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.59350/hqv3w-d3q61"
+   }
+  ],
+  "title_overlap": 0.9
+ },
+ {
+  "n": 19,
+  "title": "Training language models to follow instructions with human feedback",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "InstructPatentGPT: training patent language models to follow instructions with human feedback",
+    "year": 2024,
+    "venue": "Artificial Intelligence and Law",
+    "vol": "33",
+    "issue": "3",
+    "page": "739-782",
+    "doi": "10.1007/s10506-024-09401-1"
+   }
+  ],
+  "title_overlap": 1.0
+ },
+ {
+  "n": 20,
+  "title": "LLaMA: Open and efficient foundation language models",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Hierarchical Prompt Composition for Memory-Efficient Open-World Continual Learning in Vision-Language Foundation Models",
+    "year": 2025,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.21203/rs.3.rs-7970696/v1"
+   }
+  ],
+  "title_overlap": 0.71
+ },
+ {
+  "n": 21,
+  "title": "IEEE and IEC codes to interpret incipient faults in transformers, using gas in oil analysis",
+  "doi": "10.1109/TEI.1978.298141",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "IEEE and IEC Codes to Interpret Incipient Faults in Transformers, Using Gas in Oil Analysis",
+   "year": 1978,
+   "venue": "IEEE Transactions on Electrical Insulation",
+   "vol": "EI-13",
+   "issue": "5",
+   "page": "349-354"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 22,
+  "title": "A new approach of DGA interpretation technique for transformer fault diagnosis",
+  "doi": "10.1016/j.ijepes.2016.02.018",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A new approach of DGA interpretation technique for transformer fault diagnosis",
+   "year": 2016,
+   "venue": "International Journal of Electrical Power &amp; Energy Systems",
+   "vol": "81",
+   "issue": null,
+   "page": "265-274"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 23,
+  "title": "Association rule mining-based dissolved gas analysis for fault diagnosis of power transformers",
+  "doi": "10.1109/TSMCC.2009.2021989",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Association Rule Mining-Based Dissolved Gas Analysis for Fault Diagnosis of Power Transformers",
+   "year": 2009,
+   "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)",
+   "vol": "39",
+   "issue": "6",
+   "page": "597-610"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 24,
+  "title": "A comparative study of neural network efficiency in power transformers diagnosis using dissolved gas analysis",
+  "doi": "10.1109/61.956751",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A comparative study of neural network efficiency in power transformers diagnosis using dissolved gas analysis",
+   "year": 2001,
+   "venue": "IEEE Transactions on Power Delivery",
+   "vol": "16",
+   "issue": "4",
+   "page": "643-647"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 25,
+  "title": "A hybrid tool for detection of incipient faults in transformers based on the dissolved gas analysis of insulating oil",
+  "doi": "10.1109/TPWRD.2005.864044",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A Hybrid Tool for Detection of Incipient Faults in Transformers Based on the Dissolved Gas Analysis of Insulating Oil",
+   "year": 2006,
+   "venue": "IEEE Transactions on Power Delivery",
+   "vol": "21",
+   "issue": "2",
+   "page": "673-680"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 26,
+  "title": "Greedy function approximation: A gradient boosting machine",
+  "doi": "10.1214/aos/1013203451",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Greedy function approximation: A gradient boosting machine.",
+   "year": 2001,
+   "venue": "The Annals of Statistics",
+   "vol": "29",
+   "issue": "5",
+   "page": "1189-1232"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 27,
+  "title": "Ensemble methods in machine learning",
+  "doi": "10.1007/3-540-45014-9_1",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Ensemble Methods in Machine Learning",
+   "year": 2000,
+   "venue": "Lecture Notes in Computer Science",
+   "vol": null,
+   "issue": null,
+   "page": "1-15"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 28,
+  "title": "Deep Learning",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "What’s Deep About Deep Learning?",
+    "year": 2018,
+    "venue": "Deep Learning",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.4135/9781506368603.n2"
+   }
+  ],
+  "title_overlap": 1.0
+ },
+ {
+  "n": 29,
+  "title": "Principal Component Analysis (2nd ed.)",
+  "doi": "10.1007/b98835",
+  "status": "ERROR HTTPError",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "n": 30,
+  "title": "The use of multiple measurements in taxonomic problems",
+  "doi": "10.1111/j.1469-1809.1936.tb02137.x",
+  "status": "ERROR HTTPError",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "n": 31,
+  "title": "Nonlinear component analysis as a kernel eigenvalue problem",
+  "doi": "10.1162/089976698300017467",
+  "status": "ERROR HTTPError",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "n": 32,
+  "title": "A global geometric framework for nonlinear dimensionality reduction",
+  "doi": "10.1126/science.290.5500.2319",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "A Global Geometric Framework for Nonlinear Dimensionality Reduction",
+   "year": 2000,
+   "venue": "Science",
+   "vol": "290",
+   "issue": "5500",
+   "page": "2319-2323"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 33,
+  "title": "Nonlinear dimensionality reduction by locally linear embedding",
+  "doi": "10.1126/science.290.5500.2323",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Nonlinear Dimensionality Reduction by Locally Linear Embedding",
+   "year": 2000,
+   "venue": "Science",
+   "vol": "290",
+   "issue": "5500",
+   "page": "2323-2326"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 34,
+  "title": "Laplacian eigenmaps for dimensionality reduction and data representation",
+  "doi": "10.1162/089976603321780317",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Laplacian Eigenmaps for Dimensionality Reduction and Data Representation",
+   "year": 2003,
+   "venue": "Neural Computation",
+   "vol": "15",
+   "issue": "6",
+   "page": "1373-1396"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 35,
+  "title": "Large language models are zero-shot reasoners",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Large Language Models Are Zero-Shot Reasoners",
+    "year": 2022,
+    "venue": "Advances in Neural Information Processing Systems 35",
+    "vol": null,
+    "issue": null,
+    "page": "22199-22213",
+    "doi": "10.52202/068431-1613"
+   }
+  ],
+  "title_overlap": 1.0
+ },
+ {
+  "n": 36,
+  "title": "Evaluating large language models trained on code",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Evaluating Pre-Trained Large Language Models on Zero Shot Prompts for Parallelization of Source Code",
+    "year": 2025,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.2139/ssrn.5114036"
+   }
+  ],
+  "title_overlap": 1.0
+ },
+ {
+  "n": 37,
+  "title": "Sparse principal component analysis",
+  "doi": "10.1198/106186006X113430",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Sparse Principal Component Analysis",
+   "year": 2006,
+   "venue": "Journal of Computational and Graphical Statistics",
+   "vol": "15",
+   "issue": "2",
+   "page": "265-286"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 38,
+  "title": "Modern Multidimensional Scaling: Theory and Applications (2nd ed.)",
+  "doi": "10.1007/0-387-28981-X",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Modern Multidimensional Scaling",
+   "year": 2005,
+   "venue": "Springer Series in Statistics",
+   "vol": null,
+   "issue": null,
+   "page": null
+  },
+  "title_overlap": 0.38
+ },
+ {
+  "n": 39,
+  "title": "Blind beamforming for non-Gaussian signals",
+  "doi": "10.1049/ip-f-2.1993.0054",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Blind beamforming for non-gaussian signals",
+   "year": 1993,
+   "venue": "IEE Proceedings F Radar and Signal Processing",
+   "vol": "140",
+   "issue": "6",
+   "page": "362"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 40,
+  "title": "Random forests",
+  "doi": "10.1023/A:1010933404324",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Random Forests",
+   "year": 2001,
+   "venue": "Machine Learning",
+   "vol": "45",
+   "issue": "1",
+   "page": "5-32"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 41,
+  "title": "XGBoost: A scalable tree boosting system",
+  "doi": "10.1145/2939672.2939785",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "XGBoost",
+   "year": 2016,
+   "venue": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+   "vol": null,
+   "issue": null,
+   "page": "785-794"
+  },
+  "title_overlap": 0.17
+ },
+ {
+  "n": 42,
+  "title": "Scikit-learn: Machine learning in Python",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Getting Started with Scikit‐learn for Machine Learning",
+    "year": 2019,
+    "venue": "Python® Machine Learning",
+    "vol": null,
+    "issue": null,
+    "page": "93-117",
+    "doi": "10.1002/9781119557500.ch5"
+   }
+  ],
+  "title_overlap": 0.67
+ },
+ {
+  "n": 43,
+  "title": "Visualizing data using t-SNE",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "q-SNE: Visualizing Data using q-Gaussian Distributed Stochastic Neighbor Embedding",
+    "year": 2021,
+    "venue": "2020 25th International Conference on Pattern Recognition (ICPR)",
+    "vol": null,
+    "issue": null,
+    "page": "1051-1058",
+    "doi": "10.1109/icpr48806.2021.9412900"
+   }
+  ],
+  "title_overlap": 0.8
+ },
+ {
+  "n": 44,
+  "title": "Transformer winding condition assessment using frequency response analysis and evidential reasoning",
+  "doi": "10.1049/iet-epa.2009.0102",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Transformer winding condition assessment using frequency response analysis and evidential reasoning",
+   "year": 2010,
+   "venue": "IET Electric Power Applications",
+   "vol": "4",
+   "issue": "3",
+   "page": "198-212"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 45,
+  "title": "Self-consistency improves chain of thought reasoning in language models",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+    "year": 2025,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.59350/90sh1-hbs94"
+   }
+  ],
+  "title_overlap": 0.7
+ },
+ {
+  "n": 46,
+  "title": "LLM-Blender: Ensembling large language models with pairwise ranking and generative fusion",
+  "doi": "10.18653/v1/2023.acl-long.792",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion",
+   "year": 2023,
+   "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+   "vol": null,
+   "issue": null,
+   "page": "14165-14178"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 47,
+  "title": "Measuring nominal scale agreement among many raters",
+  "doi": "10.1037/h0031619",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Measuring nominal scale agreement among many raters.",
+   "year": 1971,
+   "venue": "Psychological Bulletin",
+   "vol": "76",
+   "issue": "5",
+   "page": "378-382"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 48,
+  "title": "Note on the sampling error of the difference between correlated proportions or percentages",
+  "doi": "10.1007/BF02295996",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "Note on the Sampling Error of the Difference Between Correlated Proportions or Percentages",
+   "year": 1947,
+   "venue": "Psychometrika",
+   "vol": "12",
+   "issue": "2",
+   "page": "153-157"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 49,
+  "title": "Statistical comparisons of classifiers over multiple data sets",
+  "doi": null,
+  "status": "TITLE_SEARCH",
+  "crossref": [
+   {
+    "title": "Multiple Machine Learning Comparisons of HIV Cell-based and Reverse Transcriptase Data Sets",
+    "year": null,
+    "venue": "",
+    "vol": null,
+    "issue": null,
+    "page": null,
+    "doi": "10.1021/acs.molpharmaceut.8b01297.s001"
+   }
+  ],
+  "title_overlap": 0.62
+ },
+ {
+  "n": 50,
+  "title": "The original Borda count and partial voting",
+  "doi": "10.1007/s00355-011-0603-9",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "The original Borda count and partial voting",
+   "year": 2011,
+   "venue": "Social Choice and Welfare",
+   "vol": "40",
+   "issue": "2",
+   "page": "353-358"
+  },
+  "title_overlap": 1.0
+ },
+ {
+  "n": 51,
+  "title": "How is ChatGPT’s behavior changing over time? Harvard Data Science Review, 6(2)",
+  "doi": "10.1162/99608f92.5317da47",
+  "status": "DOI_OK",
+  "crossref": {
+   "title": "How Is ChatGPT’s Behavior Changing Over Time?",
+   "year": 2024,
+   "venue": "Harvard Data Science Review",
+   "vol": "6",
+   "issue": "2",
+   "page": null
+  },
+  "title_overlap": 0.57
+ }
+]

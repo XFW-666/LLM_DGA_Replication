@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the manuscript and this archive."
+type: dataset
+title: "Replication data and code: LLM-Enhanced Feature Engineering for Power Transformer Fault Diagnosis Using Dissolved Gas Analysis - A Leakage-Free Multi-Model Evaluation"
+version: 2.1.0
+date-released: 2026-11-19
+license: MIT
+authors:
+  - family-names: "Dong"
+    given-names: "Zhongze"
+    affiliation: "Shanghai Meike Test Technology Co., Ltd."
+  - family-names: "Fu"
+    given-names: "Lin"
+    affiliation: "Shanghai Meike Test Technology Co., Ltd."
+  - family-names: "Lin"
+    given-names: "Yang"
+    affiliation: "Shanghai Meike Test Technology Co., Ltd."
+  - family-names: "Long"
+    given-names: "Zaimeng"
+    affiliation: "Shanghai Meike Test Technology Co., Ltd."
+  - family-names: "Yang"
+    given-names: "Fan"
+    affiliation: "China Coal Technology & Engineering Group Shanghai Co., Ltd."
+  - family-names: "Xue"
+    given-names: "Fangwei"
+    affiliation: "Shandong First Medical University"
+keywords:
+  - dissolved gas analysis
+  - power transformer
+  - large language models
+  - feature engineering
+  - leakage-free evaluation
+  - reproducibility

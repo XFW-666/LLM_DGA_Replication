@@ -1,0 +1,72 @@
+{
+ "primary": {
+  "n_raw": 550,
+  "n_clean": 519,
+  "n_removed": 31,
+  "n_duplicate_groups": 28,
+  "n_rows_in_duplicate_groups": 58,
+  "conflicting_groups": [
+   {
+    "key": "650.0|53.0|34.0|20.0|0.0",
+    "labels": [
+     2,
+     3
+    ]
+   }
+  ],
+  "class_counts": {
+   "Normal": 130,
+   "LTO": 108,
+   "HTO": 87,
+   "PD": 79,
+   "LED": 41,
+   "HED": 74
+  },
+  "sha256_gas_matrix": "7d0ce29509cb94458d09fc824fbce7b6e83141d8c5e436296cad582e8033ffbf"
+ },
+ "external": {
+  "n_raw": 504,
+  "n_overlap_with_primary": 117,
+  "n_internal_duplicates": 0,
+  "n_independent": 387,
+  "class_counts": {
+   "Normal": 32,
+   "LTO": 64,
+   "HTO": 107,
+   "PD": 48,
+   "LED": 52,
+   "HED": 84
+  },
+  "code_mapping": {
+   "1": "LTO",
+   "2": "HTO",
+   "3": "LED",
+   "4": "HED",
+   "5": "PD",
+   "6": "Normal"
+  },
+  "sha256_gas_matrix": "67e4846d21894cd4a06e6de8c86b69d79f15bdb68f0a9fa5e5c8633348e9e9e6"
+ },
+ "mapping_check": {
+  "n_overlap": 117,
+  "agree": 115,
+  "disagree": 2,
+  "disagreements": [
+   {
+    "key": "6.7|10.0|11.0|71.0|3.9",
+    "external": "HTO",
+    "primary": [
+     "Normal"
+    ]
+   },
+   {
+    "key": "8.4|28.7|13.0|105.0|2.1",
+    "external": "LED",
+    "primary": [
+     "HTO"
+    ]
+   }
+  ],
+  "agree_under_old_mapping": 1
+ }
+}
